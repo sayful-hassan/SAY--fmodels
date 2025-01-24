@@ -1,11 +1,10 @@
-import React from 'react'
-
+import './Header.css'
 function Header() {
   return (
         <div className="container-fluid">
             <div className="row">
                 <header className="col-md-12">
-                    <h1>SAY FMODEL</h1>
+                    <h1 className='col-md-8 mt-2'>SAY FMODEL</h1>
                     <nav>
                         <ul className="col-md-8">
                             <li>HOME</li>

@@ -1,0 +1,35 @@
+@property --primary-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value:#ecc19c ;
+}
+@property --secondary-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #1e847f;
+}
+@property --teritiary-color {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: black;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: var(--teritiary-color);
+    color: var(--secondary-color);
+
+    h1{
+        font-style: italic;
+        font-weight: 700;
+    }
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin-right: 0;
+    margin-top: 20px;
+    text-align: right;
+}
