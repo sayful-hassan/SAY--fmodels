@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import Models from './components/Models/Models'
 import Header from './components/Header/Header'
 import Context from './components/Context/Context'
 
@@ -9,8 +10,9 @@ function App() {
 
   return (
     <>
-     <Header />
-     <Context />
+      <Header/>    
+      <Context/>
+      <Models/>
     </>
   )
 }

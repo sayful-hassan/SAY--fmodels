@@ -1,0 +1,35 @@
+@property --primary-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value:#ecc19c ;
+}
+@property --secondary-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #1e847f;
+}
+@property --teritiary-color {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: black;
+}
+body{
+    background-color: var(--teritiary-color);
+}
+img{
+    width: 200px;
+    height: 200px;
+}
+.listofmodels{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    justify-content: center;
+    color: var(--secondary-color);
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-weight: 800;
+    color: var(--secondary-color);
+}
