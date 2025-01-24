@@ -1,0 +1,58 @@
+@property --primary-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value:#ecc19c ;
+}
+@property --secondary-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #1e847f;
+}
+@property --teritiary-color {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: black;
+}
+
+section{
+    background-image: url('src/assets/models images/Flux_Dev_A_highcontrast_editorialstyle_background_image_for_a__0.jpeg');
+    justify-content: center;
+    background-position: center;
+    background-repeat: round;
+    height: 800px;
+    width: 100%;
+
+    p{
+        font-size: 30px;
+        color: var(--secondary-color);
+        font-weight: 600;
+        text-transform: lowercase;
+        padding-left: 25px;
+        max-width: 30%;
+        padding-top: 25px;
+        font-style: italic;
+        font-family: 'Times New Roman', Times, serif;
+        
+    }
+    h2{
+        color: var(--secondary-color);
+        font-weight: 700;
+        padding-top: 25px;
+        padding-left: 25px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    button{
+        color: var(--secondary-color);
+        margin-left: 25px;
+        margin-top: 25px;
+        width: 200px;
+        height: 40px;
+        border-radius: 15px;
+    }
+    
+    
+}
+button:hover{
+    transition: ease-in;
+    background-color: var(--primary-color);
+}
