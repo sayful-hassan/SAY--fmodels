@@ -3,6 +3,7 @@ import './App.css'
 import Models from './components/Models/Models'
 import Header from './components/Header/Header'
 import Context from './components/Context/Context'
+import Gigi from './components/Models/List of Models/Gigi'
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Header/>    
       <Context/>
       <Models/>
+      <Gigi/>
     </>
   )
 }

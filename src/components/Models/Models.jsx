@@ -6,7 +6,7 @@ function Models() {
       <div class="row">
         <div class="models col-md-12 pt-7">
           <h2>MODELS</h2>
-          <div class="listofmodels col-md">
+          <div class="listofmodels col-md-12">
             <div class="innerdiv">
               <img
                 src="src/assets/models images/Gigi square.jpg"
