@@ -1,4 +1,5 @@
 import './Header.css'
+import { Link } from 'react-router-dom'
 function Header() {
   return (
         <div className="container-fluid">
@@ -7,10 +8,10 @@ function Header() {
                     <h1 className='col-md-8 mt-2'>SAY FMODEL</h1>
                     <nav>
                         <ul className="col-md-8">
-                            <li>HOME</li>
-                            <li>MODELS</li>
-                            <li>ABOUT</li>
-                            <li>CONNECT</li>
+                            <li><Link to="/">HOME</Link></li>
+                            <li><Link to="/models">MODELS</Link></li>
+                            <li><Link to="/about">ABOUT</Link></li>
+                            <li><Link to="/connect">CONNECT</Link></li>
                         </ul>
                     </nav>
                 </header>    

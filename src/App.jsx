@@ -1,22 +1,24 @@
-import { useState } from 'react'
 import './App.css'
 import Models from './components/Models/Models'
 import Header from './components/Header/Header'
 import Context from './components/Context/Context'
-import Gigi from './components/Models/List of Models/Gigi'
-import Kylie from './components/Models/List of Models/Kylie'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Header/>    
-      <Context/>
-      <Models/>
-      <Gigi/>
-      <Kylie/>
+      <Router>
+        <Header/>  
+        
+       <Routes>
+        <Route path='/' element={<Context/>} />
+        <Route path='/models' element={<Models/>} />
+       </Routes>
+      
+      </Router>
     </>
   )
 }
