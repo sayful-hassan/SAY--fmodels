@@ -17,19 +17,23 @@ function Models() {
               <h5>GIGI HADID</h5>
               </Link>
             </div>
-            <div>
+            <div className="innerdiv">
+              <Link to='/models/kylie'>
               <img
                 src="src/assets/models images/kylie sq.jpg"
                 alt="kylie"
-              />
+                />
               <h5>KYLIE JENNER</h5>
+                </Link>
             </div>
             <div>
+              <Link to='/models/kendall'>
               <img
                 src="src/assets/models images/square kendall.jpg"
                 alt="kendell"
-              />
+                />
               <h5>KENDALL JENNER</h5>
+                </Link>
             </div>
           </div>
         </div>
