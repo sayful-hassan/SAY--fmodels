@@ -6,7 +6,7 @@ function About() {
     <div className="container-fluid">
       <div className="row">
         <div className="onlydiv col-md-12">
-      <img src="src/assets/models images/ICON about.jpeg" alt="models" />
+      <img className="image" src="src/assets/models images/ICON about.jpeg" alt="models" />
       <p>
         Welcome to our modeling agency, where talent meets opportunity. Our
         platform provides a space for aspiring models to showcase their profiles

@@ -18,7 +18,7 @@ p{
     font-size: x-large;
     font-family: 'Courier New', Courier, monospace;
 }
-img{
+.image{
     float: left;
     clip-path: circle(50%);
     shape-outside: circle(85%);
