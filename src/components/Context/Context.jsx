@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Context.css";
 
 function Context() {
@@ -10,7 +11,9 @@ function Context() {
             Welcome to our Indian-based modeling agency, where talent meets
             opportunity!
           </p>
+          <Link to='/models'>
           <button>SEE MODELS</button>
+          </Link>
         </section>
       </div>
     </div>
