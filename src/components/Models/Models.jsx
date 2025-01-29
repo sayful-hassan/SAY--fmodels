@@ -26,7 +26,7 @@ function Models() {
               <h5>KYLIE JENNER</h5>
                 </Link>
             </div>
-            <div>
+            <div className="innerdiv">
               <Link to='/models/kendall'>
               <img
                 src="src/assets/models images/square kendall.jpg"

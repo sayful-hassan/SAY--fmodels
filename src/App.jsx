@@ -5,6 +5,7 @@ import Context from './components/Context/Context'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Gigi from './components/Models/List of Models/Gigi'
 import Kylie from './components/Models/List of Models/Kylie'
+import Kendall from './components/Models/List of Models/Kendall'
 
 
 
@@ -20,6 +21,7 @@ function App() {
         <Route path='/models' element={<Models/>} />
         <Route path='/models/gigi' element={<Gigi/>} />
         <Route path='/models/kylie' element={<Kylie/>} />
+        <Route path='/models/kendall' element={<Kendall/>} />
        </Routes>
       
       </Router>
