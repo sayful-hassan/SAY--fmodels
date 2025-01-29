@@ -3,6 +3,10 @@ import "./About.css";
 function About() {
   return (
     <>
+    <div className="container-fluid">
+      <div className="row">
+        <div className="onlydiv col-md-12">
+      <img src="src/assets/models images/ICON about.jpeg" alt="models" />
       <p>
         Welcome to our modeling agency, where talent meets opportunity. Our
         platform provides a space for aspiring models to showcase their profiles
@@ -18,6 +22,9 @@ function About() {
         requirements—all in one place. Here, both talent and opportunity come
         together seamlessly.
       </p>
+        </div>
+      </div>
+    </div>
     </>
   );
 }

@@ -1,0 +1,29 @@
+@property --primary-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value:#ecc19c ;
+}
+@property --secondary-color{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #1e847f;
+}
+@property --teritiary-color {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: black;
+}
+p{
+    color: var(--secondary-color);
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+img{
+    float: left;
+    clip-path: circle(50%);
+    shape-outside: circle(85%);
+}
+.onlydiv{
+    margin: 0;
+    padding: 40px 20px;
+}
