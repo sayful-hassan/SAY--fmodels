@@ -7,10 +7,10 @@ function Context() {
         <section className="main-context">
           <h2>Indian Based Agency</h2>
           <p>
-            "Welcome to our Indian-based modeling agency, where talent meets
+            Welcome to our Indian-based modeling agency, where talent meets
             opportunity!
           </p>
-          <button>See models</button>
+          <button>SEE MODELS</button>
         </section>
       </div>
     </div>

@@ -45,14 +45,21 @@ section{
         color: var(--secondary-color);
         margin-left: 25px;
         margin-top: 25px;
+        padding: 10px 7px;
+        font-weight: 900;
         width: 200px;
         height: 40px;
-        border-radius: 15px;
+        border-radius: 7px;
+
+    }
+    button:hover{
+        transition: ease-in;
+        background-color: var(--secondary-color);
+        color: white;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px var(--secondary-color);
+        transform: translate(2px);
+    }
     }
     
     
-}
-button:hover{
-    transition: ease-in;
-    background-color: var(--primary-color);
-}
