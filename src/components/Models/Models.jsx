@@ -1,18 +1,21 @@
+import { Link } from "react-router-dom";
 import "./Models.css";
 
 function Models() {
   return (
-    <div class="container-fluid">
-      <div class="row">
-        <div class="models col-md-12 pt-7">
+    <div className="container-fluid">
+      <div className="row">
+        <div className="models col-md-12 pt-7">
           <h2>MODELS</h2>
-          <div class="listofmodels col-md-12">
-            <div class="innerdiv">
+          <div className="listofmodels col-md-12">
+            <div className="innerdiv">
+              <Link to='/models/gigi'>
               <img
                 src="src/assets/models images/Gigi square.jpg"
                 alt="gigi"
               />
               <h5>GIGI HADID</h5>
+              </Link>
             </div>
             <div>
               <img
